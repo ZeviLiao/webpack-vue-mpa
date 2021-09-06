@@ -1,31 +1,12 @@
 <template>
   <div id="app">
-    <img
-      alt="Vue logo"
-      src="@/assets/logo.png"
+    Home
+    <HelloWorld />
+    <a
+      href="about"
     >
-
-    <div style="position: relative">
-      <div class="short-it">
-        <HelloWorld msg="Welcome to Your Vue.js App" />
-      </div>
-
-      <div />
-    </div>
-
-    <nav>
-      <ul>
-        <li>Go to</li>
-
-        <li>
-          <a
-            href="about.html"
-          >
-            About Us
-          </a>
-        </li>
-      </ul>
-    </nav>
+      About Us
+    </a>
   </div>
 </template>
 
